@@ -1,0 +1,20 @@
+---
+title: "Administração da produção"
+subtitle: "Resgate de conceitos e fundamentos"
+author: "Renata Oliveira"
+institute: "CEFET-MG"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: style.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
