@@ -218,6 +218,14 @@ Henry Ford **(1910)** cria a produção em série, revolucionando os métodos e 
 ---
 
 # Evolução histórica
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%"}
+knitr::include_graphics("img/13.png")
+```
+
+---
+class: inverse
+
+# Evolução histórica
 
 .center[
 .huge[
@@ -249,6 +257,14 @@ knitr::include_graphics("img/3.png")
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
 knitr::include_graphics("img/11.png")
+```
+
+---
+
+# Níveis de planejamento
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("img/15.png")
 ```
 
 ---
