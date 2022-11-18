@@ -154,13 +154,19 @@ Forma de produção organizada através dos artesãos que estabeleciam prazos de
 ## **Revolução Industrial**   
 A descoberta da máquina a vapor em **1764** por James Watt (decadência da produção artesanal), inicia-se o processo de substituição da força humana pela força da máquina. Os artesãos se agruparam para formar as primeiras fábricas. Essa revolução no modo de fabricação trouxe: 
 
+.pull-left[
 - Padronização dos produtos;   
 - Padronização dos processos de fabricação;    
-- Treinamento e habilitação da mão-de-obra direta;    
-- Criação e desenvolvimento dos quadros gerenciais e de supervisão;   
+- Treinamento e habilitação da MDO; 
+- Criação e desenvolvimento dos quadros gerenciais e de supervisão; ]  
+
+
+
+.pull-right[
 - Desenvolvimento de técnicas de planejamento e controle da produção;   
 - Desenvolvimento de técnicas de planejamento e controle financeiro;   
 - Desenvolvimento de técnicas de vendas.
+]
 
 ---
 
