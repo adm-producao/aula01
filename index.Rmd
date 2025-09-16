@@ -1,6 +1,6 @@
 ---
 title: "Administração da Produção"
-subtitle: "Evolução histórica, fundamentos, métodos e modelos"
+subtitle: "Fundamentos e evolução histórica"
 author: 
   - <br></br>Renata Oliveira
 output:
@@ -477,9 +477,9 @@ A relação entre esses sistemas é melhor entendida como um **espectro** que va
 
 **Sentido de produção: empurrada**
 
-- Foco na produção para estoque e, posteriormente, na comercialização dos produtos.
-- O histórico de vendas ou previsão de mercado determina a quantidade a ser produzida.
-- O cálculo de produção conforme a previsão de vendas gerada pelo Material Requirement Planning ou Planejamento das Necessidades Materiais (MRP).
+- Foco na **produção para estoque** e, posteriormente, na comercialização dos produtos.
+- O** histórico de vendas** ou **previsão de mercado** determina a **quantidade a ser produzida**.
+- O cálculo de produção conforme a previsão de vendas gerada pelo **Material Requirement Planning** ou **Planejamento das Necessidades Materiais (MRP)**.
 
 ---
 
