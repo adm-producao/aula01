@@ -798,7 +798,6 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ponto de Desacoplamento** | **Acaba em Estoque**<br>(O estoque de produtos acabados "desacopla" a produção da demanda real). | **Montagem Final**<br>(O estoque de componentes/modulos "desacopla" a produção da montagem final). | **Matéria-Prima**<br>(O estoque de matéria-prima "desacopla" a compra da produção). | **Fornecedor**<br>(Não há estoque; o desacoplamento ocorre na capacidade dos recursos). |
-| **Estoque Mantido** | **Produtos Acabados** | **Componentes e Módulos** (subconjuntos) | **Matéria-Prima** | **Praticamente nenhum** (só matérias-primas muito genéricas) |
 
 ---
 
@@ -806,8 +805,23 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 
 | Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
+| **Estoque Mantido** | **Produtos Acabados** | **Componentes e Módulos** (subconjuntos) | **Matéria-Prima** | **Praticamente nenhum** (só matérias-primas muito genéricas) |
 | **Lead Time para o Cliente** | **Imediato** ou muito curto (apenas o tempo de entrega). | **Médio** (tempo necessário para montar os componentes). | **Longo** (tempo necessário para fabricar e montar). | **Muito Longo** (tempo de projeto + aquisição + fabricação + montagem). |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Customização** | **Nenhuma ou Mínima.** Cliente escolhe entre produtos padronizados. | **Alta em atributos finais.** Cliente combina módulos padrão (ex.: cor, motor, opcionais). | **Alta no produto.** O produto é feito conforme especificação do cliente. | **Total.** O produto é projetado e fabricado do zero para o cliente. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Base para o Plano de Produção** | **Previsão de Demanda** (baseada em histórico, tendências, etc.). | **Previsão de Demanda para Componentes Comuns.** | **Pedidos Firmes dos Clientes.** | **Pedidos Firmes dos Clientes e Projetos.** |
 
 ---
@@ -817,6 +831,14 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Risco** | **Alto risco de obsolescência** e excesso de estoque se a previsão falhar. | **Risco moderado.** Estoques de componentes podem ter múltiplos usos. | **Baixo risco de estoque** de produtos acabados. Risco fica na capacidade produtiva. | **Risco de projeto e escopo.** Risco financeiro e técnico é alto. |
+
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Vantagem Principal** | Atendimento **rápido** ao cliente e aproveitamento de **economias de escala**. | **Balanceamento** entre customização e tempo de entrega **rápido**. | **Customização** sem risco de estoque obsoleto de produtos acabados. | **Máxima flexibilidade** para atender necessidades **únicas e complexas** do cliente. |
 
 ---
@@ -826,6 +848,13 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Desvantagem Principal** | Requer previsões **precisas**; custo de manter estoque; pode levar a descontos agressivos para liquidar. | Requer um **projeto modular** muito bom e gestão complexa de estoque de componentes. | **Lead time** longo para o cliente e **menor eficiência** devido à falta de repetição. | **Lead time** **muito longo**, **alto custo** e **alta complexidade** de gerenciamento. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Exemplos Práticos** | Supermercados (alimentos), lojas de eletrônicos (smartphones), bens de consumo (eletrodomésticos). | **Montadoras de carros** (estoque de motores, bancos; monta o carro com as opções escolhidas), **computadores Dell**. | **Móveis sob medida**, **equipamentos industriais** específicos, **uniformes corporativos**. | **Navios**, **usinas de energia**, **sistemas de automação industrial**, **construção de prédios comerciais**. |
 
 ---
@@ -854,6 +883,27 @@ Esta classificação é crucial para o **planejamento da cadeia de suprimentos (
 
 
 ---
+
+# Atividade de aprendizagem - 01
+
+[Atividade de aprendizagem - 01](https://www.places.education/disciplinas/adm_prod_mat/aa01/)
+
+### Preparação
+
+`r countdown(minutes = 15, seconds = 00, left = 0, right = 0, padding = "10px", margin = "5%", font_size = "6em", play_sound = TRUE)`
+
+---
+
+# Atividade de aprendizagem - 01
+
+[Atividade de aprendizagem - 01](https://www.places.education/disciplinas/adm_prod_mat/aa01/)
+
+### Apresentações e discussão
+
+`r countdown(minutes = 5, seconds = 00, left = 0, right = 0, padding = "10px", margin = "5%", font_size = "6em", play_sound = TRUE)`
+
+---
+
 
 # Evolução histórica
 

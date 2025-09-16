@@ -11,7 +11,7 @@
     <script src="libs/panelset/panelset.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x8e284aae93c4c6e9eadf75e65e4060b","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x4325ba268ee498f80cf1dca39fbc74a","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -26,6 +26,8 @@
     <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-scribble/scribble.js"></script>
     <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <link href="libs/countdown/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown/countdown.js"></script>
     <link rel="stylesheet" href="slides.css" type="text/css" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -788,7 +790,6 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ponto de Desacoplamento** | **Acaba em Estoque**&lt;br&gt;(O estoque de produtos acabados "desacopla" a produção da demanda real). | **Montagem Final**&lt;br&gt;(O estoque de componentes/modulos "desacopla" a produção da montagem final). | **Matéria-Prima**&lt;br&gt;(O estoque de matéria-prima "desacopla" a compra da produção). | **Fornecedor**&lt;br&gt;(Não há estoque; o desacoplamento ocorre na capacidade dos recursos). |
-| **Estoque Mantido** | **Produtos Acabados** | **Componentes e Módulos** (subconjuntos) | **Matéria-Prima** | **Praticamente nenhum** (só matérias-primas muito genéricas) |
 
 ---
 
@@ -796,8 +797,23 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 
 | Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
+| **Estoque Mantido** | **Produtos Acabados** | **Componentes e Módulos** (subconjuntos) | **Matéria-Prima** | **Praticamente nenhum** (só matérias-primas muito genéricas) |
 | **Lead Time para o Cliente** | **Imediato** ou muito curto (apenas o tempo de entrega). | **Médio** (tempo necessário para montar os componentes). | **Longo** (tempo necessário para fabricar e montar). | **Muito Longo** (tempo de projeto + aquisição + fabricação + montagem). |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Customização** | **Nenhuma ou Mínima.** Cliente escolhe entre produtos padronizados. | **Alta em atributos finais.** Cliente combina módulos padrão (ex.: cor, motor, opcionais). | **Alta no produto.** O produto é feito conforme especificação do cliente. | **Total.** O produto é projetado e fabricado do zero para o cliente. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Base para o Plano de Produção** | **Previsão de Demanda** (baseada em histórico, tendências, etc.). | **Previsão de Demanda para Componentes Comuns.** | **Pedidos Firmes dos Clientes.** | **Pedidos Firmes dos Clientes e Projetos.** |
 
 ---
@@ -807,6 +823,14 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Risco** | **Alto risco de obsolescência** e excesso de estoque se a previsão falhar. | **Risco moderado.** Estoques de componentes podem ter múltiplos usos. | **Baixo risco de estoque** de produtos acabados. Risco fica na capacidade produtiva. | **Risco de projeto e escopo.** Risco financeiro e técnico é alto. |
+
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Vantagem Principal** | Atendimento **rápido** ao cliente e aproveitamento de **economias de escala**. | **Balanceamento** entre customização e tempo de entrega **rápido**. | **Customização** sem risco de estoque obsoleto de produtos acabados. | **Máxima flexibilidade** para atender necessidades **únicas e complexas** do cliente. |
 
 ---
@@ -816,6 +840,13 @@ Exemplo: Usinas de energia, máquinas industriais complexas.
 | Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Desvantagem Principal** | Requer previsões **precisas**; custo de manter estoque; pode levar a descontos agressivos para liquidar. | Requer um **projeto modular** muito bom e gestão complexa de estoque de componentes. | **Lead time** longo para o cliente e **menor eficiência** devido à falta de repetição. | **Lead time** **muito longo**, **alto custo** e **alta complexidade** de gerenciamento. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque&lt;br&gt;(Make-to-Stock - MTS)** | **Montagem sob Encomenda&lt;br&gt;(Assemble-to-Order - ATO)** | **Produção sob Encomenda&lt;br&gt;(Make-to-Order - MTO)** | **Engenharia sob Encomenda&lt;br&gt;(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
 | **Exemplos Práticos** | Supermercados (alimentos), lojas de eletrônicos (smartphones), bens de consumo (eletrodomésticos). | **Montadoras de carros** (estoque de motores, bancos; monta o carro com as opções escolhidas), **computadores Dell**. | **Móveis sob medida**, **equipamentos industriais** específicos, **uniformes corporativos**. | **Navios**, **usinas de energia**, **sistemas de automação industrial**, **construção de prédios comerciais**. |
 
 ---
@@ -844,6 +875,33 @@ Esta classificação é crucial para o **planejamento da cadeia de suprimentos (
 
 
 ---
+
+# Atividade de aprendizagem - 01
+
+[Atividade de aprendizagem - 01](https://www.places.education/disciplinas/adm_prod_mat/aa01/)
+
+### Preparação
+
+<div class="countdown" id="timer_4d48fef4" data-update-every="1" data-play-sound="true" tabindex="0" style="right:0;bottom:0;left:0;margin:5%;padding:10px;font-size:6em;">
+<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+# Atividade de aprendizagem - 01
+
+[Atividade de aprendizagem - 01](https://www.places.education/disciplinas/adm_prod_mat/aa01/)
+
+### Apresentações e discussão
+
+<div class="countdown" id="timer_ed77956d" data-update-every="1" data-play-sound="true" tabindex="0" style="right:0;bottom:0;left:0;margin:5%;padding:10px;font-size:6em;">
+<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
 
 # Evolução histórica
 
