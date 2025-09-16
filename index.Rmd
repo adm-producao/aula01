@@ -298,7 +298,7 @@ Exemplo: Consultoria, corte de cabelo, serviço de hospedagem.
 
 ### 2. Volume de Produção e Variedade de Produtos
 
-**Organização** das atividades da indústria, com o objetivo de oferecer o máximo de eficiência nos processos de montagem e transformação da matéria-prima. 
+**Organização** das atividades da indústria, com o objetivo de oferecer **a máxima de eficiência nos processos de montagem e transformação da matéria-prima**. 
 
 ---
 
@@ -515,10 +515,10 @@ A relação entre esses sistemas é melhor entendida como um **espectro** que va
 
 **Sentido de produção: puxada (pull)**
 - Toyotismo
-- Foco é no fluxo de materiais com um estoque mínimo ou até mesmo sem um depósito de reserva.
-- Demanda dos clientes é o principal fator que irá determinar a quantidade a ser produzida.
-- Operação, mais enxuta, requer assertividade por parte da empresa, e tem como base a metodologiaJust in Time, que visa eliminar desperdícios.
-- Quadros de sinalização e programas otimizam o controle dos fluxos de produção, a exemplo do Kanban. A partir do momento que o comprador pede a mercadoria, o Kanban sinaliza às áreas responsáveis, resultando no início do processo produtivo.
+- Foco é no **fluxo de materiais** com um **estoque mínimo** ou até mesmo **sem um depósito de reserva**.
+- **Demanda dos clientes** é o principal fator que irá determinar a quantidade a ser produzida.
+- Operação, mais enxuta, requer assertividade por parte da empresa, e tem como base a metodologia ~Just in Time~, que visa eliminar desperdícios.
+- Quadros de sinalização e programas otimizam o **controle dos fluxos de produção**, a exemplo do Kanban. A partir do momento que o comprador pede a mercadoria, o Kanban sinaliza às áreas responsáveis, resultando no início do processo produtivo.
 
 
 ---
@@ -726,9 +726,17 @@ O layout celular é, muitas vezes, uma evolução do layout funcional, buscando 
 
 ### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
 
-**Essa classe diz respeito a como a produção é acionada.**
+Essa classe diz respeito a como a produção é acionada. Este critério define **quando** a produção é acionada em resposta à demanda e **onde** se localiza o estoque na cadeia.
 
-**Produção para Estoque (Make-to-Stock - MTS):** Os produtos são fabricados com base em previsões de demanda e armazenados em estoque, aguardando a venda.
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Produção para Estoque (Make-to-Stock - MTS):** 
+
+Os produtos são fabricados com base em **previsões de demanda e armazenados em estoque**, aguardando a venda.
 
 Exemplo: Bens de consumo como eletrodomésticos, brinquedos, alimentos embalados.
 
@@ -739,31 +747,110 @@ Exemplo: Bens de consumo como eletrodomésticos, brinquedos, alimentos embalados
 
 ### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
 
-**Produção sob Encomenda (Make-to-Order - MTO):** A produção só inicia após a confirmação de um pedido do cliente.
+**Montagem sob Encomenda (Assemble-to-Order - ATO):**
 
-Exemplo: Móveis sob medida, navios, computadores personalizados.
-
-
----
-
-# Classificação dos sistemas produtivos
-
-### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
-
-**Montagem sob Encomenda (Assemble-to-Order - ATO):** Componentes e subconjuntos são produzidos para estoque, mas a montagem final só é feita após o pedido do cliente.
+Componentes e subconjuntos são produzidos **para estoque**, mas a **montagem final só é feita após o pedido do cliente**.
 
 Exemplo: Carros (as peças são estocadas, o carro é montado conforme a escolha do cliente), computadores Dell.
 
 
+
 ---
 
 # Classificação dos sistemas produtivos
 
 ### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
 
-**Engenharia sob Encomenda (Engineer-to-Order - ETO)**: Envolve projeto e engenharia personalizados antes da fabricação, que também é feita sob encomenda.
+**Produção sob Encomenda (Make-to-Order - MTO):** 
+
+A produção só inicia **após a confirmação de um pedido do cliente**.
+
+Exemplo: Móveis sob medida, navios, computadores personalizados.
+
+
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Engenharia sob Encomenda (Engineer-to-Order - ETO)**: 
+
+Envolve **projeto e engenharia personalizados antes da fabricação**, que também é feita **sob encomenda**.
 
 Exemplo: Usinas de energia, máquinas industriais complexas.
+
+
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Definição** | Os produtos são fabricados e mantidos em estoque **antes** de receber o pedido do cliente, com base em **previsões** de demanda. | Os **componentes** são produzidos para estoque, mas a **montagem final** só é iniciada após a confirmação do pedido do cliente. | A produção do item **inicia-se apenas após** a recepção de um pedido confirmado do cliente. | Envolve **projeto e engenharia personalizados** antes da fabricação, que também é feita sob encomenda. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ponto de Desacoplamento** | **Acaba em Estoque**<br>(O estoque de produtos acabados "desacopla" a produção da demanda real). | **Montagem Final**<br>(O estoque de componentes/modulos "desacopla" a produção da montagem final). | **Matéria-Prima**<br>(O estoque de matéria-prima "desacopla" a compra da produção). | **Fornecedor**<br>(Não há estoque; o desacoplamento ocorre na capacidade dos recursos). |
+| **Estoque Mantido** | **Produtos Acabados** | **Componentes e Módulos** (subconjuntos) | **Matéria-Prima** | **Praticamente nenhum** (só matérias-primas muito genéricas) |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Lead Time para o Cliente** | **Imediato** ou muito curto (apenas o tempo de entrega). | **Médio** (tempo necessário para montar os componentes). | **Longo** (tempo necessário para fabricar e montar). | **Muito Longo** (tempo de projeto + aquisição + fabricação + montagem). |
+| **Customização** | **Nenhuma ou Mínima.** Cliente escolhe entre produtos padronizados. | **Alta em atributos finais.** Cliente combina módulos padrão (ex.: cor, motor, opcionais). | **Alta no produto.** O produto é feito conforme especificação do cliente. | **Total.** O produto é projetado e fabricado do zero para o cliente. |
+| **Base para o Plano de Produção** | **Previsão de Demanda** (baseada em histórico, tendências, etc.). | **Previsão de Demanda para Componentes Comuns.** | **Pedidos Firmes dos Clientes.** | **Pedidos Firmes dos Clientes e Projetos.** |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Risco** | **Alto risco de obsolescência** e excesso de estoque se a previsão falhar. | **Risco moderado.** Estoques de componentes podem ter múltiplos usos. | **Baixo risco de estoque** de produtos acabados. Risco fica na capacidade produtiva. | **Risco de projeto e escopo.** Risco financeiro e técnico é alto. |
+| **Vantagem Principal** | Atendimento **rápido** ao cliente e aproveitamento de **economias de escala**. | **Balanceamento** entre customização e tempo de entrega **rápido**. | **Customização** sem risco de estoque obsoleto de produtos acabados. | **Máxima flexibilidade** para atender necessidades **únicas e complexas** do cliente. |
+
+---
+
+### Tabela Comparativa: Sistemas de Produção Quanto ao Padrão de Atendimento da Demanda
+
+| Critério | **Produção para Estoque<br>(Make-to-Stock - MTS)** | **Montagem sob Encomenda<br>(Assemble-to-Order - ATO)** | **Produção sob Encomenda<br>(Make-to-Order - MTO)** | **Engenharia sob Encomenda<br>(Engineer-to-Order - ETO)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Desvantagem Principal** | Requer previsões **precisas**; custo de manter estoque; pode levar a descontos agressivos para liquidar. | Requer um **projeto modular** muito bom e gestão complexa de estoque de componentes. | **Lead time** longo para o cliente e **menor eficiência** devido à falta de repetição. | **Lead time** **muito longo**, **alto custo** e **alta complexidade** de gerenciamento. |
+| **Exemplos Práticos** | Supermercados (alimentos), lojas de eletrônicos (smartphones), bens de consumo (eletrodomésticos). | **Montadoras de carros** (estoque de motores, bancos; monta o carro com as opções escolhidas), **computadores Dell**. | **Móveis sob medida**, **equipamentos industriais** específicos, **uniformes corporativos**. | **Navios**, **usinas de energia**, **sistemas de automação industrial**, **construção de prédios comerciais**. |
+
+---
+
+### O Conceito-Chave: Ponto de Desacoplamento
+
+O **Ponto de Desacoplamento** é o local na cadeia de valor onde a operação deixa de ser orientada pelo **pedido do cliente** e passa a ser orientada por **previsão**. É o ponto que separa o que é "puxado" pela demanda real do que é "empurrado" por uma previsão.
+
+*   **MTS:** Desacoplamento **no distribuidor/varejista** (estoque de produtos acabados).
+*   **ATO:** Desacoplamento **na fábrica** (estoque de componentes).
+*   **MTO:** Desacoplamento **no fornecedor de matéria-prima**.
+*   **ETO:** **Não há desacoplamento** baseado em estoque. Tudo é iniciado após o pedido. O "desacoplamento" é na capacidade de projeto e produção.
+
+Esta classificação é crucial para o **planejamento da cadeia de suprimentos (SCM)**, pois define a estratégia de estoques, a gestão de demanda e o grau de customização que a empresa pode oferecer.
+
+
+---
+
+# Classificação de sistemas de produção
+
+1. Quanto à Natureza do Produto   
+2. Volume de Produção e Variedade de Produtos
+3. Quanto ao sentido de produção
+4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
 
 
 ---
