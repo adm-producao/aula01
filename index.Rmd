@@ -202,116 +202,682 @@ knitr::include_graphics("img/15.png")
 
 ---
 
-<!-- # Evolução histórica -->
+# Sistema produtivo
 
-<!-- ## **Produção Artesanal**    -->
-<!-- Forma de produção organizada através dos artesãos que estabeleciam prazos de entrega e prioridades, atendendo especificações preestabelecidas e fixando preços para suas encomendas. Posteriormente a produção aumentou o número de encomendas, passando contratar ajudantes que inicialmente faziam trabalhos de menor responsabilidade e assim que aprendiam o ofício, se tornavam novos artesãos. -->
+.question[
+Um sistema produtivo transforma, via um processamento, entradas em saídas (produtos) úteis aos clientes.
 
-<!-- --- -->
+A produção é o conjunto de atividades ou processo que origina produtos ou serviços. O termo vem do latim *productio* e significa “fazer aparecer”. Desse modo, a ideia se relaciona à ação de produzir, originar e fabricar.
 
-<!-- # Evolução histórica -->
+Um **Sistema de Produção** é um conjunto integrado de elementos (humanos, materiais, tecnológicos, informacionais e financeiros) que interagem entre si com o objetivo de transformar insumos (entradas) em bens ou serviços (saídas), agregando valor para atender às necessidades e expectativas dos clientes.
+]
 
-<!-- ## **Revolução Industrial**    -->
-<!-- A descoberta da máquina a vapor em **1764** por James Watt (decadência da produção artesanal), inicia-se o processo de substituição da força humana pela força da máquina. Os artesãos se agruparam para formar as primeiras fábricas. Essa revolução no modo de fabricação trouxe:  -->
+---
 
-<!-- .pull-left[ -->
-<!-- - Padronização dos produtos;    -->
-<!-- - Padronização dos processos de fabricação;     -->
-<!-- - Treinamento e habilitação da MDO;  -->
-<!-- - Criação e desenvolvimento dos quadros gerenciais e de supervisão; ]   -->
+# Sistema produtivo
 
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("img/Sistema.jpeg")
+```
 
+---
 
-<!-- .pull-right[ -->
-<!-- - Desenvolvimento de técnicas de planejamento e controle da produção;    -->
-<!-- - Desenvolvimento de técnicas de planejamento e controle financeiro;    -->
-<!-- - Desenvolvimento de técnicas de vendas. -->
-<!-- ] -->
+# Sistema produtivo: recursos
 
-<!-- --- -->
+.pull-left[
+**Recursos de transformação**
 
-<!-- # Evolução histórica -->
+Instalação física   
+Funcionários   
+Equipamentos   
+Maquinário   
+Energia   
+Sistemas de informação   
+]
 
-<!-- ## **Taylorismo** (Administração Científica) -->
+.pull-right[
+**Recursos a serem transformados**
 
-<!-- Surgiu no **fim do século XIX** nos Estados Unidos através de Taylor a sistematização do conceito de produtividade, isto é, a procura incessante por melhores métodos de trabalho e processos de produção, com o objetivo de se obter melhoria da produtividade com o menor custo possível. -->
+Materiais   
+Informações   
+Consumidores   
+]
 
-<!-- --- -->
+---
 
-<!-- # Evolução histórica -->
+## Objetivos dos sistemas de produção
 
+| Critérios             | Descrição                                                                                           |
+|-------------------|-----------------------------------------------------|
+| Custo/Eficiência      | Produzir bens/serviços a um custo mais baixo do que a concorrência                                  |
+| Qualidade/Eficácia    | Produzir bens/serviços com desempenho de qualidade mais alto do que a concorrência                  |
+| Desempenho de entrega | Ter confiabilidade e velocidade nos prazos de entrega dos bens/serviços melhores que a concorrência |
+| Flexibilidade         | Ser capaz de reagir de forma rápida a eventos repentinos e inesperados.                             |
+| Produtividade         | Relação entre as saídas geradas e as entradas utilizadas. O aumento da produtividade é um objetivo central.
+| Ético-social          | Produzir bens/serviços respeitando a ética nos negócios e a sociedade em geral.                     |
 
-<!-- ## **Linha de Montagem**    -->
-<!-- Henry Ford **(1910)** cria a produção em série, revolucionando os métodos e processos produtivos. Surge o conceito de produção em massa, caracterizada por grandes volumes de produtos padronizados. A busca da melhoria da produtividade por meio de novas técnicas originou o termo engenharia industrial. Novos conceitos foram introduzidos: -->
-
-<!-- .pull-left[ -->
-<!-- - Linha de montagem;  -->
-<!-- - Posto de trabalho;  -->
-<!-- - Estoques intermediários;  -->
-<!-- - Monotonia do trabalho;  -->
-<!-- - Arranjo físico;] -->
-
-<!-- .pull-right[ -->
-<!-- - Balanceamento de linha;  -->
-<!-- - Produtos em processo;  -->
-<!-- - Motivação;  -->
-<!-- - Sindicatos;  -->
-<!-- - Manutenção preventiva. -->
-<!-- ] -->
-
-<!-- --- -->
-
-<!-- # Evolução histórica -->
-
-<!-- ## **Modelo Pós-fordista** -->
-
-<!-- **Modelo Toyota (Produção Enxuta)**: A partir de **meados da década de 60**, surgiram novas técnicas produtivas, que vieram a caracterizar a denominada produção enxuta que introduziu, os conceitos: -->
-
-<!-- .pull-left[ -->
-<!-- - Just-in-time; -->
-<!-- - Engenharia simultânea;  -->
-<!-- - Tecnologia de grupo;  -->
-<!-- - Consórcio modular;  -->
-<!-- ] -->
-
-<!-- .pull-right[ -->
-<!-- - Células de produção;  -->
-<!-- - Desdobramento da função qualidade;  -->
-<!-- - Comakership, Sistemas flexíveis de manufatura;  -->
-<!-- - Manufatura integrada por computador;  -->
-<!-- - Benchmarking.] -->
-
-<!-- --- -->
-
-<!-- # Evolução histórica -->
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%"} -->
-<!-- knitr::include_graphics("img/13.png") -->
-<!-- ``` -->
-
-<!-- --- -->
-<!-- class: inverse -->
-
-<!-- # Evolução histórica -->
-
-<!-- .center[ -->
-<!-- .huge[ -->
-<!-- E HOJE??????? -->
-<!-- ]] -->
-
-<!-- --- -->
-
-<!-- # Desafios -->
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"} -->
-<!-- knitr::include_graphics("img/3.png") -->
-<!-- ``` -->
-
-<!-- --- -->
+---
 
 
+# Classificação de sistemas produtivos
 
-<!-- --- -->
-<!-- class: center, middle -->
+1. Quanto à Natureza do Produto
+2. Volume de Produção e Variedade de Produtos
+3. Quanto ao sentido de produção
+4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
 
-<!-- .huge[ -->
-<!-- **DÚVIDAS?** -->
-<!-- ] -->
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 1. Natureza do Produto
+
+.pull-left[
+**Produção de Bens (Manufatura):**
+
+Resulta em um produto físico, tangível e estocável.
+
+Exemplo: Carros, roupas, smartphones.
+]
+
+.pull-right[
+
+**Produção de Serviços:**
+
+Resulta em uma atividade intangível, frequentemente consumida no momento da produção.
+
+Exemplo: Consultoria, corte de cabelo, serviço de hospedagem.
+]
+
+---
+
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume de Produção e Variedade de Produtos
+
+**Organização** das atividades da indústria, com o objetivo de oferecer o máximo de eficiência nos processos de montagem e transformação da matéria-prima. 
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume de Produção e Variedade de Produtos
+
+Podemos dividir a classificação em  relação a Volume de Produção e Variedade de Produtos em quatro grupos principais: 
+
+- produção sob encomenda
+- produção em lotes
+- produção em massa 
+- produção contínua.
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume e variedade: Produção sob Encomenda (Projeto)
+.pull-left-wide[
+**Características**
+- Baixo volume.
+- Alta variedade.
+- Cada produto é único.
+]
+
+.pull-right-narrow[
+**Exemplos**   
+Construção de um navio
+Um prédio personalizado
+Uma campanha publicitária.
+]
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume e variedade: Produção contínua
+.pull-left-wide[
+**Características**
+- Alta uniformidade na produção e demanda de bens ou serviços, favorecendo a automatização
+- Inexistência ou pouco de flexibilidade no sistema
+- Alto investimento em equipamentos e instalações
+- A mão-de-obra é empregada apenas para a condução e manutenção das instalações
+]
+
+.pull-right-narrow[
+**Exemplos**   
+Mineração   
+Produção de energia   
+Refinamento de petróleo   
+]
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume e variedade: Produção em massa
+.pull-left-wide[
+**Características**
+- Produção em grande escala de produtos altamente padronizados
+- Demanda pelos produtos são estáveis, fazendo com que seus projetos tenham pouca alteração no curto prazo
+- Estrutura produtiva altamente especializada e pouco flexível
+]
+
+.pull-right-narrow[
+**Exemplos**   
+Montagem de automóveis   
+Fabricação de produtos têxteis   
+Abate e beneficiamento de aves, suínos, gado, etc.   
+Produção de eletrodomésticos.    
+]
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 2. Volume e variedade: Produção em lotes
+.pull-left-wide[
+**Características**
+- Volume médio de bens ou serviços padronizados em lotes.  
+- Cada lote segue uma série de operações que necessita ser programada a medida que as operações anteriores forem realizadas.  
+- O sistema produtivo deve ser relativamente flexível, empregando equipamentos pouco especializados e mão-de-obra polivalente, visando atender diferentes pedidos dos clientes e flutuações da demanda.
+]
+
+.pull-right-narrow[
+**Exemplos**
+ 
+Fabricação de produtos têxteis em pequena escala.  
+Produção de calçados.  
+Panificadora (faz um lote de pão, depois um de bolos).
+Restaurantes
+]
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Definição** | Processo ininterrupto e dedicado à fabricação de um único produto 24/7. | Fabricação de alto volume de produtos padronizados e idênticos. | Fabricação de grupos (lotes) de produtos com paradas para reconfiguração. | Criação de um produto único, complexo e de grande escala, sob encomenda. |
+| **Volume de Produção** | **Extremamente Alto** (Máximo) | **Muito Alto** | **Médio** | **Muito Baixo** (Unitário) |
+| **Variedade de Produtos** | **Nula ou Mínima** (Apenas um produto) | **Muito Baixa** (Produtos idênticos) | **Média** (Famílias de produtos) | **Muito Alta** (Produto único e customizado) |
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Flexibilidade** | **Nula** (Totalmente inflexível) | **Muito Baixa** (Sistema rígido) | **Média** (Reconfigurável entre lotes) | **Muito Alta** (Altamente adaptável) |
+| **Layout / Arranjo Físico** | **Flow Shop** fixo e altamente integrado. | **Flow Shop** (Linha de montagem sequencial). | **Job Shop** ou **Flow Shop** reconfigurável. | **Posição Fixa** (Produto permanece imóvel). |
+| **Custo Unitário** | **O mais Baixo** (Para seu volume extremo) | **Baixo** (Economias de escala) | **Médio** (Custo de setup distribuído) | **Muito Alto** |
+
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mão de Obra** | Operadores especializados em uma função, alta automação. | Operadores de linha de montagem, tarefas repetitivas. | Operadores qualificados, capazes de operar múltiplas máquinas. | Equipes multifuncionais e altamente especializadas (engenheiros, técnicos). |
+| **Tempo de Setup/Preparação** | **Proibitivo** (Parada é rara e extremamente custosa) | **Baixo** (Uma vez configurado, roda por longos períodos) | **Alto** (Frequente e necessário a cada troca de lote) | **Único e Incorporado** (Não há "setup" no sentido tradicional) |
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Exemplo Prático** | Refinaria de petróleo, usina siderúrgica, fábrica de cimento. | Montadora de automóveis, fábrica de smartphones, linha de embalagem. | Padaria, confecção de roupas, indústria farmacêutica. | Construção de um navio, de um prédio, de uma usina hidrelétrica. |
+
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Planejamento e Controle** | Foco na manutenção e eficiência do processo contínuo. | Foco na eficiência da linha e no controle de qualidade estatístico. | Complexo; foco no sequenciamento de lotes e gestão de estoques. | Complexo e único; foco no gerenciamento de escopo, prazo e custo (PMBOK). |
+| **Relação com o Cliente** | Produz para estoque baseado em previsão de demanda agregada. | Produz para estoque baseado em previsão de demanda. | Produz para estoque ou sob encomenda, dependendo do lote. | **Sob Encomenda (ETO).** Intensa interação inicial com o cliente. |
+
+---
+
+## Comparação dos sistemas produtivos: Volume e variedade
+| Critério | **Produção Contínua** | **Produção em Massa** | **Produção em Lotes** | **Produção por Projeto** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Principal Vantagem** | Eficiência e produtividade máximas para um único produto. | Custo unitário muito baixo para produtos padronizados. | Equilíbrio entre variedade e custo. | Capacidade de criar produtos únicos e complexos, sob medida. |
+| **Principal Desvantagem** | Altíssimo investimento e total inflexibilidade. | Falta de personalização e alta inflexibilidade. | Custo de setup e gestão complexa de estoque e sequência. | Alto custo, longos prazos de entrega e complexidade de gerenciamento. |
+
+---
+
+# Visualização do Espectro Volume-Variedade
+
+A relação entre esses sistemas é melhor entendida como um **espectro** que vai do mais padronizado ao mais customizado:
+
+**Alto Volume <<< --- >>> Alta Variedade**
+
+**Produção Contínua** → **Produção em Massa** → **Produção em Lotes** → **Produção por Projeto**
+
+*   À **esquerda**, o foco é na **eficiência** e **baixo custo**.
+*   À **direita**, o foco é na **flexibilidade** e **customização**.
+
+---
+
+# Classificação de sistemas de produção
+
+1. ~~Quanto à Natureza do Produto~~   
+2. ~~Volume de Produção e Variedade de Produtos~~
+3. Quanto ao sentido de produção
+4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 3. Quanto ao sentido de produção
+
+**Sentido de produção: empurrada**
+
+- Foco na produção para estoque e, posteriormente, na comercialização dos produtos.
+- O histórico de vendas ou previsão de mercado determina a quantidade a ser produzida.
+- O cálculo de produção conforme a previsão de vendas gerada pelo Material Requirement Planning ou Planejamento das Necessidades Materiais (MRP).
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 3. Quanto ao sentido de produção
+
+**Sistema de Produção Empurrada (Push)**
+
+1.  **Entrada:** Tudo começa com uma **previsão de demanda** (estimativa de quanto será vendido).
+2.  **Planejamento:** Com base na previsão, um **Plano Mestre de Produção (PMP)** é criado, definindo o que e quanto produzir.
+3.  **Produção:** A fábrica recebe a ordem e produz os itens **baseada neste plano**.
+4.  **Estoque:** Os produtos acabados são enviados para o estoque, aguardando a venda.
+5.  **Venda:** O departamento de vendas tenta vender o que já foi produzido e está em estoque.
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 3. Quanto ao sentido de produção
+
+**Sistema de Produção Empurrada (Push)**
+
+**Características Chave:**
+*   **Motorizado pela Previsão:** Produz com base no que se *acha* que o cliente vai comprar.
+*   **Altos Estoques:** Risco de criar excesso de estoque de produtos que não são vendidos.
+*   **Rígido:** Menor capacidade de reagir a mudanças no desejo do cliente.
+
+---
+
+# Classificação dos sistemas produtivos
+### 3. Quanto ao sentido de produção
+
+**Sentido de produção: puxada (pull)**
+- Toyotismo
+- Foco é no fluxo de materiais com um estoque mínimo ou até mesmo sem um depósito de reserva.
+- Demanda dos clientes é o principal fator que irá determinar a quantidade a ser produzida.
+- Operação, mais enxuta, requer assertividade por parte da empresa, e tem como base a metodologiaJust in Time, que visa eliminar desperdícios.
+- Quadros de sinalização e programas otimizam o controle dos fluxos de produção, a exemplo do Kanban. A partir do momento que o comprador pede a mercadoria, o Kanban sinaliza às áreas responsáveis, resultando no início do processo produtivo.
+
+
+---
+
+# Classificação dos sistemas produtivos
+### 3. Quanto ao sentido de produção
+
+**Sentido de produção: puxada (pull)**
+
+1.  **Entrada:** Tudo começa com um **pedido real do cliente** (venda efetiva).
+2.  **Sinalização:** A venda cria um **sinal** (ex.: um cartão Kanban) que autoriza a reposição do item vendido.
+3.  **Reposição:** O estoque puxa a produção para repor exatamente o que foi vendido.
+4.  **Produção:** A fábrica só produz o necessário para atender a esse sinal de reposição.
+5.  **Compra:** A necessidade de produção puxa a compra de matéria-prima.
+
+---
+
+# Classificação dos sistemas produtivos
+### 3. Quanto ao sentido de produção
+
+**Sentido de produção: puxada (pull)**
+
+**Características Chave:**
+*   **Motorizado pela Demanda Real:** Produz com base no que o cliente *realmente* comprou.
+*   **Estoques Mínimos:** Evita excesso de produção e estoque, reduzindo desperdícios.
+*   **Ágil e Flexível:** Reage rapidamente às mudanças na demanda do cliente.
+
+---
+
+### 3. Quanto ao sentido de produção
+**Tabela Comparativa: Empurrada vs. Puxada**
+
+| Característica | **Sistema Empurrado (Push)** | **Sistema Puxado (Pull)** |
+| :--- | :--- | :--- |
+| **Pontapé Inicial** | Previsão de demanda | Pedido do cliente (demanda real) |
+| **Filosofia** | "Produza, então venda" | "Venda, então produza" |
+| **Controle de Estoque** | Alto risco de excesso (superprodução) | Estoques mínimos (produção enxuta) |
+| **Principal Desafio** | Prever o futuro com precisão | Responder com agilidade à demanda |
+| **Melhor para** | Produtos com demanda muito estável e previsível. | Produtos com demanda variável, customização ou que seguem princípios enxutos (Lean). |
+
+---
+
+# Classificação dos sistemas produtivos
+### 3. Quanto ao sentido de produção
+**Em resumo:**
+*   **Push (Empurrar):** A produção "empurra" o produto para o estoque, esperando que haja demanda.
+*   **Pull (Puxar):** A demanda do cliente "puxa" o produto através do sistema de produção, gerando apenas o necessário.
+
+
+---
+
+# Classificação de sistemas de produção
+
+1. ~~Quanto à Natureza do Produto~~   
+2. ~~Volume de Produção e Variedade de Produtos~~
+3. ~~Quanto ao sentido de produção~~
+4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+---
+
+
+# Classificação dos sistemas produtivos
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+.question[
+**Layout**, ou arranjo físico, corresponde ao posicionamento de máquinas, equipamentos e pessoa. Tipos:
+- Posicional ou posição fixa.
+- Em linha ou por produto (Flow shop).
+- Funcional ou por processo (Job shop).
+- Celular.
+]
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+#### Posicional
+
+O produto principal permanece em um local fixo; todos os materiais, ferramentas e trabalhadores são levados até ele.
+
+Exemplo: Construção de um navio, de um avião, de um turbina eólica.
+
+---
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+#### Em linha ou por produto (flow shop)
+
+As máquinas e equipamentos são organizados na sequência exata das operações necessárias para fabricar o produto. Exemplo: Linha de montagem de carros, linha de embalagem de alimentos.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%"}
+knitr::include_graphics("img/linha.png")
+```
+
+
+---
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+#### Por processo (funcional ou job shop)
+
+Máquinas e recursos são agrupados por função ou tipo de processo (ex.: todas as furadeiras juntas). Exemplo: Oficina mecânica, hospital, gráfica rápida.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%"}
+knitr::include_graphics("img/job.png")
+```
+
+---
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+#### Celular
+
+Uma mistura dos layouts por processo e por produto. Células de produção são formadas para agrupar produtos ou partes com formas ou requisitos de processamento semelhantes. Exemplo: Fábrica que produz uma "célula" dedicada a uma família de parafusos e outra a uma família de porcas.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="40%"}
+knitr::include_graphics("img/celular.png")
+```
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Definição** | O **produto** principal permanece **imóvel**. Todos os recursos (mão de obra, equipamentos, materiais) são levados até ele. | Os recursos são agrupados por **função ou tipo de processo**. O produto se move entre esses departamentos. | Os recursos são organizados na **sequência exata** das operações necessárias para fabricar o produto. | Híbrido. Recursos são agrupados para produzir **famílias de produtos** com formas ou requisitos de processamento semelhantes. |
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arranjo Físico** | Centro: **Produto**<br>Ao redor: **Recursos Móveis** | Agrupa **máquinas similares** juntas (ex.: setor de solda, setor de usinagem). | Sequência linear de **máquinas dedicadas** (ex.: estamparia → pintura → montagem). | **Células** autônomas com máquinas **diferentes** necessárias para produzir uma família completa. |
+| **Variedade x Volume** | **Baixo Volume**<br>**Altíssima Variedade** (Único) | **Baixo/Médio Volume**<br>**Alta Variedade** | **Alto Volume**<br>**Baixa Variedade** (Padronizado) | **Médio Volume**<br>**Média Variedade** (Famílias de produtos) |
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Flexibilidade** | **Muito Alta.** Adapta-se a cada projeto único. | **Alta.** Pode lidar com uma grande variedade de rotas e produtos. | **Muito Baixa.** Dedicado a um produto ou família muito estreita. | **Média.** Flexível dentro da família de produtos para a qual foi projetada. |
+| **Fluxo de Materiais** | **Inexistente** (o produto não se move). | **Complexo e Variado** (fluxo em "jogo da velha"). | **Linear, Contínuo e Previsível** (fluxo em linha reta). | **Em U ou Loop** dentro da célula (fluxo simplificado). |
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vantagens** | - Lida com produtos grandes e complexos.<br>- Alta customização. | - Grande flexibilidade.<br>- Uso geral dos recursos. | - **Alta eficiência** e taxa de produção.<br>- Baixo custo unitário.<br>- Controle simplificado. | - Reduz tempos de setup e movimentação.<br>- Melhora o fluxo vs. Job Shop.<br>- Maior autonomia da equipe. |
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Desvantagens** | - Alta movimentação de recursos.<br>- Planejamento complexo.<br>- Custos geralmente altos. | - Alta movimentação de materiais.<br>- Tempos de produção longos e variáveis.<br>- Controle complexo. | - Falta de flexibilidade.<br>- Vulnerabilidade a quebras (uma falha para toda a linha).<br>- Trabalho monótono. | - Requer agrupamento eficiente de produtos em famílias.<br>- Pode subutilizar alguns equipamentos. |
+
+---
+
+### Tabela Comparativa: Tipos de Layout de Produção
+
+| Critério | **Layout de Posição Fixa** <br> *(Layout Posicional)* | **Layout por Processo** <br> *(Layout Funcional ou Job Shop)* | **Layout por Produto** <br> *(Flow Shop ou Linha de Montagem)* | **Layout Celular** <br> *(Manufacturing Cells)* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Exemplos** | Construção de navios, plataformas petrolíferas, edifícios, turbinas eólicas. | Oficinas mecânicas, hospitais, gráficas sob encomenda. | Montadoras de automóveis, linhas de embalagem de alimentos, fabricação de eletrodomésticos. | Fábrica de parafusos (célula para uma família), fabricação de componentes eletrônicos. |
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 4. Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)
+
+**Em resumo:** A escolha do layout é estratégica e depende diretamente do trade-off entre **variedade** e **volume** que a empresa precisa oferecer.
+
+*   Precisa de **customização extrema**? -> **Posição Fixa**.
+*   Precisa de **alta variedade**? -> **Job Shop (Funcional)**.
+*   Precisa de **alto volume e eficiência**? -> **Flow Shop (por Produto)**.
+*   Precisa de um **meio-termo** eficiente? -> **Layout Celular**.
+
+O layout celular é, muitas vezes, uma evolução do layout funcional, buscando capturar parte da eficiência do flow shop sem perder toda a flexibilidade do job shop.
+
+
+---
+
+# Classificação de sistemas de produção
+
+1. ~~Quanto à Natureza do Produto~~   
+2. ~~Volume de Produção e Variedade de Produtos~~
+3. ~~Quanto ao sentido de produção~~
+4. ~~Quanto ao Fluxo do Produto (Layout ou Arranjo Físico)~~
+5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Essa classe diz respeito a como a produção é acionada.**
+
+**Produção para Estoque (Make-to-Stock - MTS):** Os produtos são fabricados com base em previsões de demanda e armazenados em estoque, aguardando a venda.
+
+Exemplo: Bens de consumo como eletrodomésticos, brinquedos, alimentos embalados.
+
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Produção sob Encomenda (Make-to-Order - MTO):** A produção só inicia após a confirmação de um pedido do cliente.
+
+Exemplo: Móveis sob medida, navios, computadores personalizados.
+
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Montagem sob Encomenda (Assemble-to-Order - ATO):** Componentes e subconjuntos são produzidos para estoque, mas a montagem final só é feita após o pedido do cliente.
+
+Exemplo: Carros (as peças são estocadas, o carro é montado conforme a escolha do cliente), computadores Dell.
+
+
+---
+
+# Classificação dos sistemas produtivos
+
+### 5. Quanto ao Padrão de Atendimento da Demanda - Modelos de produção
+
+**Engenharia sob Encomenda (Engineer-to-Order - ETO)**: Envolve projeto e engenharia personalizados antes da fabricação, que também é feita sob encomenda.
+
+Exemplo: Usinas de energia, máquinas industriais complexas.
+
+
+---
+
+# Evolução histórica
+
+## **Produção Artesanal**
+Forma de produção organizada através dos artesãos que estabeleciam prazos de entrega e prioridades, atendendo especificações preestabelecidas e fixando preços para suas encomendas. Posteriormente a produção aumentou o número de encomendas, passando contratar ajudantes que inicialmente faziam trabalhos de menor responsabilidade e assim que aprendiam o ofício, se tornavam novos artesãos.
+
+---
+
+# Evolução histórica
+
+## **Revolução Industrial**
+A descoberta da máquina a vapor em **1764** por James Watt (decadência da produção artesanal), inicia-se o processo de substituição da força humana pela força da máquina. Os artesãos se agruparam para formar as primeiras fábricas. Essa revolução no modo de fabricação trouxe:
+
+.pull-left[
+- Padronização dos produtos;
+- Padronização dos processos de fabricação;
+- Treinamento e habilitação da MDO;
+- Criação e desenvolvimento dos quadros gerenciais e de supervisão; ]
+
+
+
+.pull-right[
+- Desenvolvimento de técnicas de planejamento e controle da produção;
+- Desenvolvimento de técnicas de planejamento e controle financeiro;
+- Desenvolvimento de técnicas de vendas.
+]
+
+---
+
+# Evolução histórica
+
+## **Taylorismo** (Administração Científica)
+
+Surgiu no **fim do século XIX** nos Estados Unidos através de Taylor a sistematização do conceito de produtividade, isto é, a procura incessante por melhores métodos de trabalho e processos de produção, com o objetivo de se obter melhoria da produtividade com o menor custo possível.
+
+---
+
+# Evolução histórica
+
+
+## **Linha de Montagem**
+Henry Ford **(1910)** cria a produção em série, revolucionando os métodos e processos produtivos. Surge o conceito de produção em massa, caracterizada por grandes volumes de produtos padronizados. A busca da melhoria da produtividade por meio de novas técnicas originou o termo engenharia industrial. Novos conceitos foram introduzidos:
+
+.pull-left[
+- Linha de montagem;
+- Posto de trabalho;
+- Estoques intermediários;
+- Monotonia do trabalho;
+- Arranjo físico;]
+
+.pull-right[
+- Balanceamento de linha;
+- Produtos em processo;
+- Motivação;
+- Sindicatos;
+- Manutenção preventiva.
+]
+
+---
+
+# Evolução histórica
+
+## **Modelo Pós-fordista**
+
+**Modelo Toyota (Produção Enxuta)**: A partir de **meados da década de 60**, surgiram novas técnicas produtivas, que vieram a caracterizar a denominada produção enxuta que introduziu, os conceitos:
+
+.pull-left[
+- Just-in-time;
+- Engenharia simultânea;
+- Tecnologia de grupo;
+- Consórcio modular;
+]
+
+.pull-right[
+- Células de produção;
+- Desdobramento da função qualidade;
+- Comakership, Sistemas flexíveis de manufatura;
+- Manufatura integrada por computador;
+- Benchmarking.]
+
+---
+
+# Evolução histórica
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%"}
+knitr::include_graphics("img/13.png")
+```
+
+---
+class: inverse
+
+# Evolução histórica
+
+.center[
+.huge[
+E HOJE???????
+]]
+
+---
+
+# Desafios
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/3.png")
+```
+
+---
+
+
+
+---
+class: center, middle
+
+.huge[
+**DÚVIDAS?**
+]
