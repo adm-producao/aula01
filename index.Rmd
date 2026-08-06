@@ -6,6 +6,7 @@ author:
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    chakra: libs/remark/remark-latest.min.js
     css: ["slides.css", "xaringan-themer.css"]
     nature:
       ratio: "16:9"
