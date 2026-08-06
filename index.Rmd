@@ -71,15 +71,6 @@ O precisamos saber?
 ]
 
 ---
-# Atividade preliminar
-
-Defina com suas próprias palavras o que é: **Gestão da produção**
-
-Coloque sua definição no 
-
-
-
----
 # Aeroporto de Congonhas
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%"}
